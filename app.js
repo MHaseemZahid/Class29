@@ -95,21 +95,56 @@
 
 //age classes
 
-var v_age =+prompt("Enter Your Age" );
-if (v_age<13) {
-    console.log("Child");
-} 
-else if (v_age>13 && v_age<19) {
-    console.log("Teenager");
-}
-else if (v_age>19 && v_age<60) {
-    console.log("Adult");
-}
-else {
-console.log("Senior citizen" );
+// var v_age =+prompt("Enter Your Age" );
+// if (v_age<13) {
+//     console.log("Child");
+// } 
+// else if (v_age>13 && v_age<19) {
+//     console.log("Teenager");
+// }
+// else if (v_age>19 && v_age<60) {
+//     console.log("Adult");
+// }
+// else {
+// console.log("Senior citizen" );
  
-}
+// }
 
 
 //cerate a calculator
 
+var number1 =+prompt("Enter Your first number" );
+var number2 =+prompt("Enter Your second number" );
+var action =prompt("Action" ,'Add' );
+
+if (action==='Add') {
+    console.log( number1);
+    console.log( number2);
+    console.log( number1+number2);
+    
+} else if (action==='Sub'){
+    
+    console.log( number1);
+    console.log( number2);
+    console.log( number1-number2);
+}
+else if (action==='Mul'){
+    
+    console.log( number1);
+    console.log( number2);
+    console.log( number1*number2);
+}
+else if (action==='Div'){
+    
+    console.log( number1);
+    console.log( number2);
+    console.log( number1/number2);
+}
+else if (action==='Mod'){
+    
+    console.log( number1);
+    console.log( number2);
+    console.log( number1%number2);
+}else   {
+    console.log("invlid");
+}
