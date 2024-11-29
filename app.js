@@ -83,11 +83,32 @@
 
 
 // or operators
+// var v_age =+prompt("Enter Your Age" );
+// var v_pass =prompt("Enter Your Pass" );
+
+
+// if (v_age>=18 || v_pass<="yes"){
+//     console.log('eligible');
+// }
+// else{console.log('not eligible');}
+
+
+//age classes
+
 var v_age =+prompt("Enter Your Age" );
-var v_pass =prompt("Enter Your Pass" );
-
-
-if (v_age>=18 || v_pass<="yes"){
-    console.log('eligible');
+if (v_age<13) {
+    console.log("Child");
+} 
+else if (v_age>13 && v_age<19) {
+    console.log("Teenager");
 }
-else{console.log('not eligible');}
+else if (v_age>19 && v_age<60) {
+    console.log("Adult");
+}
+else {
+console.log("Senior citizen" );
+ 
+}
+
+
+//cerate a calculator
