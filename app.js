@@ -1,34 +1,34 @@
 //ask % to display grade
   
-var ask_per = +prompt("Enter Your Percentage" ,90);
+// var ask_per = +prompt("Enter Your Percentage" ,90);
 
-  if (ask_per>85) {
-    console.log("Your Grade is A+")
-} 
+//   if (ask_per>85) {
+//     console.log("Your Grade is A+")
+// } 
 
-else if (ask_per>75) {
-    console.log("Your Grade is A")
-} 
-
-
-else if (ask_per>65) {
-    console.log("Your Grade is B")
-} 
+// else if (ask_per>75) {
+//     console.log("Your Grade is A")
+// } 
 
 
-else if (ask_per>55) {
-    console.log("Your Grade is C")
-} 
+// else if (ask_per>65) {
+//     console.log("Your Grade is B")
+// } 
 
 
-else if (ask_per>45) {
-    console.log("Your Grade is D")
-} 
+// else if (ask_per>55) {
+//     console.log("Your Grade is C")
+// } 
 
 
-else {  console.log("You are fail")
+// else if (ask_per>45) {
+//     console.log("Your Grade is D")
+// } 
+
+
+// else {  console.log("You are fail")
     
-}
+// }
 
 
 
@@ -64,3 +64,8 @@ else {  console.log("You are fail")
 
 // var fun_ret_val = fun_ask_num_to_dis(fun_val);
 // console.log( fun_ret_val);
+
+// logical operators
+// and &&
+// or ||
+
