@@ -69,3 +69,15 @@
 // and &&
 // or ||
 
+// and operators
+
+var v_age =+prompt("Enter Your Age" );
+
+
+if (v_age>=18 && v_age<=25){
+    console.log('if clo');
+}
+else{console.log('else clo');}
+
+
+
