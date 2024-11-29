@@ -71,13 +71,23 @@
 
 // and operators
 
+// var v_age =+prompt("Enter Your Age" );
+
+
+// if (v_age>=18 && v_age<=25){
+//     console.log('if clo');
+// }
+// else{console.log('else clo');}
+
+
+
+
+// or operators
 var v_age =+prompt("Enter Your Age" );
+var v_pass =prompt("Enter Your Pass" );
 
 
-if (v_age>=18 && v_age<=25){
-    console.log('if clo');
+if (v_age>=18 || v_pass<="yes"){
+    console.log('eligible');
 }
-else{console.log('else clo');}
-
-
-
+else{console.log('not eligible');}
